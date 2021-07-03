@@ -14,7 +14,7 @@ client = TelegramClient('anfghohn',int(os.environ.get("a")),os.environ.get("b"))
 @client.on(events.NewMessage(pattern='(?i)/start'))
 async def handler(event):
     chat = await event.get_chat()
-    await client.send_message(chat, "example /upload file.mp4[filename] /telepdisk {filename}.mp4 /url {Pdisk link}.mp4 link will expire depends on storage weight.")
+    await client.send_message(chat, "example  /upload file.mp4  /telepdisk {filename}.mp4  /url {Pdisk link}.mp4  link will expire depends on storage weight.")
 @client.on(events.NewMessage(pattern='/diskusage'))
 async def handler(event):
     chat = await event.get_chat()
