@@ -13,6 +13,21 @@ A simple Python Flask example application that's ready to run on Heroku.
 
 * `python app.py`
 
+## Heroku Vars 
+
+Reveal Config Vars
+
+a  -  APi ID
+
+b -  api hash
+
+c -  bot token
+
+uid  -  I think user id
+
+d  -  name.heroku.com remove /
+
+
 ## Screenshot
 
 ![screenshot](https://i.imgur.com/wf74fxY.png)
